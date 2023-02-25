@@ -31,5 +31,8 @@ export class TownManager {
     getfamilies(): Family[] {
         return this._families;
     }
+    getList () {
+        return this._families
+    }
 
 }
